@@ -1,1 +1,21 @@
-domino =['AA','AC','BC','CA']
+# def dominoes(str, list:str):
+
+#     list.sort()
+#     for i in list:
+        
+        
+
+
+# dominoes('A',['AA','AC','BC','CA'])
+
+list=['AA','AC','BC','CA']
+# print(list[1])
+index =0
+for i in range(len(list)):
+    index+=1
+    # print(index,list[i])
+    for i in list[i]:
+        print(index,i)
+    
+    # for i in list[i]:
+    #     print(i)
