@@ -15,4 +15,4 @@ def split(x:int):
         b-=3
         a+=3
     print(a,b)
-split(11)
+split(15)
